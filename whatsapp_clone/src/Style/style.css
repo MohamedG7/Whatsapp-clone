@@ -1,0 +1,199 @@
+.the__app{
+    display: grid;
+    place-items: center;
+    background-color: #dadbd3;
+    height: 100vh;
+}
+.app__body{
+    display: flex;
+    background-color: #ededed;
+    height: 90vh;
+    width: 90vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.2);
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.sidebar__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+.sidebar__headerRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 10vw;
+}
+.sidebar__headerRight > .MuiSvgIcon-root{
+    margin-right: 2vw;
+    font-size: 24px !important;
+}
+.sidebar__search{
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 45px;
+    padding: 10px;
+}
+.sidebar__searchContainer{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 35px;
+    width: 100%;
+    border-radius: 20px;
+}
+.sidebar__searchContainer > input{
+    border: none;
+    margin-left: 10px;
+    outline: none;
+}
+.sidebar__searchContainer > .MuiSvgIcon-root{
+    color: gray;
+    margin: 5px;
+}
+.sidebar__chats{
+    flex: 1;
+    background-color: white;
+    overflow-y: scroll;
+}
+.sidebarChat{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+}
+.sidebarChat:hover{
+    background-color: #ebebeb;
+}
+.sidebarChat__info {
+    margin-left: 15px;
+}
+.sidebarChat__info > h2 {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.chat{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.chat__header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.chat__headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+.chat__headerInfo > h3 {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.chat__headerInfo > p {
+    color: gray;
+}
+.chat__headerRight{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+.chat__body{
+    flex: 1;
+    background-image: url("https://lh6.googleusercontent.com/proxy/jQg3g1L3Ynu3q7Uyi1BTrzebSQiyYvm6Q9FvRh3530SCFW1as-YTmzgrltL17z7hQboq5McV_vlse2EfE2Z7_4ONA4TrdIa64IDjgp9uAgYIFdD26DoiUdLPSaI=w1200-h630-p-k-no-nu");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow-y: scroll;
+    background-color: #eee99f;
+}
+.chat__message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px;
+}
+.chat__name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+.chat__timestamp{
+    margin-left: 20px;
+    font-size: xx-small;
+}
+.chat__reciever{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+.chat__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+.chat__footer > form {
+    flex: 1;
+    display: flex;
+}
+.message__cont{
+    flex: 1;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+.message__cont> input {
+    flex: 1;
+    height: 25px;
+    outline: none;
+    border: none;
+}
+.message__cont > .MuiSvgIcon-root{
+    margin: 5px;
+}
+.chat__footer > .MuiSvgIcon-root {
+    margin: 5px;
+}
+.login{
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.login__container{
+    padding: 100px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.12),  0 1px rgba(0, 0, 0, 0.12)
+}
+.login__container > img{
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.login__container > button{
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #0a8d48 !important;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar__name{
+    margin-top: 15px;
+}
